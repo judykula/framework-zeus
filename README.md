@@ -9,7 +9,11 @@ parent项目，负责定义框架/插件版本
 
 ### 1.0.0
 
-初始版本：
+继承"spring-boot-starter-parent"实现jar包版本控制
 
-- 匹配环境
-- 设置基础spring cloud 版本 维持spring boot 2.7 对应的最新版
+如下统一信息子项目无须再设置：
+
+- 统一utf8 
+- 统一jdk:8 
+- 统一基础spring cloud 版本 维持spring boot 2.7 对应的最新版
+- 统一java工具：guava & apache common
